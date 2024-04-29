@@ -1,9 +1,8 @@
 $(document).ready(function() {
-    // Final exam details
     let examDate = "Friday, May 3rd";
     let examTime = "3:30pm - 5:30pm";
     let examLocation = "IO240, Innovation Building";
-    \
+    
     $('#exam-details').html(`<p><strong>Date:</strong> ${examDate}</p>
                              <p><strong>Time:</strong> ${examTime}</p>
                              <p><strong>Location:</strong> ${examLocation}</p>`);
